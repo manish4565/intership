@@ -1,0 +1,78 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    
+  
+    font-family: 'fira sans','Gill Sans', sans-serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a {
+ text-decoration: none;
+ color: black;
+}
+
+.main{
+    /*background-color: yellow;*/
+    width: 90vw;
+}
+.container{
+    display: flex;
+    
+}
+.infocontainer{
+    /*background-color: green;*/
+    height: 78vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+display: flex;
+justify-content: center;
+flex-direction: column;
+font-family: 'Source Code Pro', monospace;
+}
+.hello{
+ font-size: 85px;
+}
+.name{
+font-size: 70px;
+font-weight: bold
+}
+.about{
+font-size: 50px;
+}
+.button button{
+margin: 34px;
+padding: 5px 15px;
+background-color: rgba(45, 45, 230, 0.76);
+border-radius: 22px;
+color: white;
+font-weight: bold;
+font-size: 21px;
+margin: 0  3 px;
+}
+.button button:hovor{
+    background-color: rgb(54, 54, 203);
+    color: white;
+
+}
+.devpic img {
+ height: 78vh;
+}
+ .sidebar{
+}
+
